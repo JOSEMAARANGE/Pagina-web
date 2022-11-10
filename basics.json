@@ -1,0 +1,38 @@
+{
+  "_id": "eulBczlrI6q5hnoW",
+  "createdAt": 1646411555428,
+  "modifiedAt": 1666828768109,
+  "settings": {
+    "name": "Terapeutico",
+    "description": "No description given",
+    "development": {
+      "type": "Local",
+      "url": "https://Terapeutico_.aptugo.com",
+      "folder": "Terapeutico",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "apiURL": "http://127.0.0.1:4567",
+      "dbconnectstring": "mongodb://127.0.0.1:27017/",
+      "variables": "https://Terapeutico.aptugo.app/Terapeutas"
+    },
+    "stagging": {
+      "type": "Local",
+      "url": "https://Terapeutico_.aptugo.com",
+      "folder": "Terapeutico_stagging",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "apiURL": "https://Terapeutico.aptugo.com:3456",
+      "dbconnectstring": "mongodb://127.0.0.1:27017/",
+      "variables": ""
+    },
+    "production": {
+      "type": "Local",
+      "url": "https://Terapeutico.aptugo.com",
+      "folder": "Terapeutico",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "apiURL": "https://Terapeutico.aptugo.com:3456",
+      "dbconnectstring": "mongodb://Terapeutico:bP01Z5R6himEAbAD@127.0.0.1:27017/?authSource=admin",
+      "variables": "filesFolder:/var/www/wildcards/tuproyecto.aptugo.app/img/"
+    },
+    "lastSaved": null,
+    "lastBuild": null
+  }
+}

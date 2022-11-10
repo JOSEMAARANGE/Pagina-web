@@ -1,0 +1,39 @@
+[
+  {
+    "type": "stylesheet",
+    "id": "MoLcc30u",
+    "name": "clase9.module.scss",
+    "errored": true,
+    "fileContents": "\nbody { \n  margin:0; \n  padding:0; \n  border:none; }\n.pages { \n\n  & .suscripcionInfo { \n    background: -webkit-gradient(linear,  0 0, 0 100%, from(rgb(145, 49, 54)), color-stop(50%, rgb(93, 57, 134)), color-stop(90%, rgb(161, 155, 155)) ); \n    \n    & .titulo { \n     text-align: center;\n     display: inline-block;\n     font-weight: 500;\n     color: #fff;\n     opacity: 1;\n     transition: all 0.5s ease-in-out;\n}\n\n    & .imagen1 {\n      float: left;\n      width: 45%;\n      margin-right: 1%;\n      display: block;\n      height: 500px;\n     \n    }\n    & .imagen2 { \n     float: left;\n    width: 40%;\n    margin-right: 1%;\n    display: block;\n    height: 500px;\n    border-color: blue\n   }\n    & .parrafo { \n      display: inline-block;\n     font-weight: 800;\n     color: #fff;\n     opacity: 1;\n     transition: all 0.5s ease-in-out;\n    }\n    & .suscripcionField { \n       margin:2%;\n      clear: both;\n      width: 35%;\n      background-color: rgb(210, 207, 218);\n                          \n    }\n    & .socials { \n     margin:3%;\n    display: flex;\n    flex-direction: row;\n    align-content:center;\n    gap: 60px;\n  }\n  }\n  }"
+  },
+  {
+    "type": "image",
+    "id": "TroLK5rS",
+    "name": "facebookLogoWhite.svg"
+  },
+  {
+    "type": "image",
+    "id": "QT8mlSn6",
+    "name": "instagramLogoWhite.svg"
+  },
+  {
+    "type": "image",
+    "id": "3Q3PMksO",
+    "name": "linkedinLogoWhite.svg"
+  },
+  {
+    "type": "image",
+    "id": "mZ5wG4Fl",
+    "name": "whatsappLogoWhite.svg"
+  },
+  {
+    "type": "image",
+    "id": "6Ruz6d1T",
+    "name": "designsPreviewFull.png"
+  },
+  {
+    "type": "image",
+    "id": "LS1TOvR7",
+    "name": "designsPreviewFull2.png"
+  }
+]
